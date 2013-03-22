@@ -4,7 +4,6 @@
 	
 		var all = $(this);
 		
-		//selectedをカラーにする
 		$("[selected]").css({"-webkit-filter":"grayscale(0%)","filter":"none"});
 		
 		all.click(function () {
