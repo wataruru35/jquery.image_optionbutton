@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link href="css/jquery.image_optionbutton.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.image_optionbutton.js"></script>
+
+<script type="text/javascript">
+
+$(function(){
+	
+	$(".option1").optionButton();
+	
+	$("button").click(function () {
+	
+		var val = $(".option1").selectedValue();
+		
+		alert(val);
+	
+	});
+	
+		
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+<div class="images">
+
+	<ul>
+		<li class="option1" val="1" selected="selected"><img src="image/1.jpeg" alt=""></li>
+		<li class="option1" val="2"><img src="image/2.jpeg" alt=""></li>
+		<li class="option1" val="3"><img src="image/3.jpeg" alt=""></li>
+	</ul>
+	
+	<button type="button">選択されている画像は？</button>
+	
+
+</div>
+
+
+</body>
+</html>
