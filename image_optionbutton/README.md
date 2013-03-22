@@ -10,9 +10,9 @@
     	<li class="option1" val="3"><img src="image/3.jpeg" alt=""></li>
     </ul>
     <button type="button">選択されている画像は？</button>
-*グルループにしたい<li>タグに同じclassを付与します。　　
-*最初から選択しておきたい要素にselected="selected"を付与します。　　
-*valオプションの値をselectedValue()で取得出来ます。　　
+*グルループにしたい<li>タグに同じclassを付与します。
+*最初から選択しておきたい要素にselected="selected"を付与します。
+*valオプションの値をselectedValue()で取得出来ます。
 　　
 ###Javascript
 
